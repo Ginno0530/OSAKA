@@ -24,3 +24,13 @@ body{font-family:var(--jp-font);}
 .profile-table{max-width:42rem}
 @media(max-width:980px){.roster,.portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.char-detail{grid-template-columns:1fr}.char-portrait{position:relative;top:auto;max-width:520px;width:100%;margin-inline:auto}}
 @media(max-width:680px){.roster,.portal-grid{grid-template-columns:1fr}.member img,.char-card img{height:min(92vw,520px)!important}.keyvisual{padding:10px}.keyvisual img{max-width:100%}}
+
+/* High-resolution anime artwork replacements */
+.keyvisual>img,.member>img,.char-card>img,.char-portrait>img{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;max-height:none!important;opacity:0!important;pointer-events:none}
+.keyvisual::before{content:"";display:block;width:100%;aspect-ratio:800/450;border-radius:20px;background:center/contain no-repeat url("../assets/anime-hq/keyvisual.avif")}
+.member::before,.char-card::before{content:"";display:block;width:100%;height:clamp(340px,34vw,460px);flex:0 0 auto;background-position:center top;background-size:contain;background-repeat:no-repeat;background-color:rgba(255,255,255,.025)}
+.char-card::before{height:clamp(360px,36vw,500px)}
+.member.mio::before,.char-card.mio::before{background-image:url("../assets/anime-hq/mio.avif")}.member.ruka::before,.char-card.ruka::before{background-image:url("../assets/anime-hq/ruka.avif")}.member.akari::before,.char-card.akari::before{background-image:url("../assets/anime-hq/akari.avif")}.member.nagi::before,.char-card.nagi::before{background-image:url("../assets/anime-hq/nagi.avif")}.member.rei::before,.char-card.rei::before{background-image:url("../assets/anime-hq/rei.avif")}.member.yura::before,.char-card.yura::before{background-image:url("../assets/anime-hq/yura.avif")}
+.char-portrait::before{content:"";display:block;width:100%;aspect-ratio:3/4;background-position:center top;background-size:contain;background-repeat:no-repeat}
+.theme-mio .char-portrait::before{background-image:url("../assets/anime-hq/mio.avif")}.theme-ruka .char-portrait::before{background-image:url("../assets/anime-hq/ruka.avif")}.theme-akari .char-portrait::before{background-image:url("../assets/anime-hq/akari.avif")}.theme-nagi .char-portrait::before{background-image:url("../assets/anime-hq/nagi.avif")}.theme-rei .char-portrait::before{background-image:url("../assets/anime-hq/rei.avif")}.theme-yura .char-portrait::before{background-image:url("../assets/anime-hq/yura.avif")}
+@media(max-width:680px){.member::before,.char-card::before{height:min(92vw,520px)}}
