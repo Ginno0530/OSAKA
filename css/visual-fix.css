@@ -1,0 +1,26 @@
+:root{
+  --jp-font:"Noto Sans JP","Hiragino Sans","Yu Gothic UI","Yu Gothic",system-ui,sans-serif;
+}
+body{font-family:var(--jp-font);}
+.hero-layout{align-items:center;gap:clamp(1.5rem,3vw,3rem)}
+.hero-visual{min-width:0}
+.keyvisual{margin:0;padding:clamp(12px,1.6vw,18px);border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(255,255,255,.06));border:1px solid rgba(255,255,255,.12);box-shadow:0 24px 80px rgba(7,14,45,.34)}
+.keyvisual img{display:block;width:100%;height:auto;max-width:min(100%,860px);margin-inline:auto;border-radius:20px;object-fit:contain!important;object-position:center center!important;image-rendering:auto}
+.keyvisual figcaption{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-top:.9rem}
+.roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1rem,2vw,1.5rem)}
+.member{display:flex;flex-direction:column;overflow:hidden;min-width:0}
+.member img{display:block;width:100%;height:clamp(340px,34vw,460px)!important;object-fit:contain!important;object-position:center top!important;padding:14px 14px 0;background:radial-gradient(circle at 50% 18%,rgba(255,255,255,.16),rgba(255,255,255,.03));position:relative!important;inset:auto!important;min-height:0!important}
+.member>div{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;padding:1rem 1.1rem 1.2rem!important;background:linear-gradient(180deg,rgba(4,12,31,.7),rgba(4,12,31,.98))!important;margin-top:auto;border-bottom:3px solid var(--accent)}
+.portal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1rem,2vw,1.5rem)}
+.char-card{overflow:hidden;display:flex;flex-direction:column;min-width:0;min-height:0!important}
+.char-card img{display:block;width:100%;height:clamp(360px,36vw,500px)!important;object-fit:contain!important;object-position:center top!important;padding:18px 18px 0;background:radial-gradient(circle at 50% 16%,rgba(255,255,255,.16),rgba(255,255,255,.03))}
+.char-meta{position:relative!important;left:auto!important;right:auto!important;bottom:auto!important;padding:1rem 1.1rem 1.2rem!important;background:linear-gradient(180deg,rgba(4,12,31,.65),rgba(4,12,31,.98))!important;margin-top:auto}
+.char-detail{display:grid;grid-template-columns:minmax(280px,420px) minmax(0,1fr);gap:clamp(1.5rem,3vw,3rem);align-items:start}
+.char-portrait{margin:0;position:sticky;top:88px;padding:clamp(16px,2vw,20px);border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.13),rgba(255,255,255,.05));border:1px solid rgba(255,255,255,.14);box-shadow:0 20px 60px rgba(4,8,29,.24);overflow:visible!important}
+.char-portrait img{display:block;width:100%;height:auto!important;max-height:min(78vh,820px);margin-inline:auto;object-fit:contain!important;object-position:center top!important}
+.portrait-caption{padding-top:1rem}
+.char-copy{min-width:0}
+.char-copy h1 .roman-name{display:block;margin-top:.45rem}
+.profile-table{max-width:42rem}
+@media(max-width:980px){.roster,.portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.char-detail{grid-template-columns:1fr}.char-portrait{position:relative;top:auto;max-width:520px;width:100%;margin-inline:auto}}
+@media(max-width:680px){.roster,.portal-grid{grid-template-columns:1fr}.member img,.char-card img{height:min(92vw,520px)!important}.keyvisual{padding:10px}.keyvisual img{max-width:100%}}
