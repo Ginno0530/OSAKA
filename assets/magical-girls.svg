@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+  <title id="title">OSAKA trouble shooter magical girls</title>
+  <desc id="desc">Three stylized magical girl trouble shooters standing before a luminous Osaka-inspired skyline.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09183F"/><stop offset=".55" stop-color="#13265B"/><stop offset="1" stop-color="#250E4B"/></linearGradient>
+    <linearGradient id="rainbow" x1=".1" y1=".1" x2=".9" y2=".9"><stop stop-color="#77F6FF"/><stop offset=".35" stop-color="#7B8CFF"/><stop offset=".65" stop-color="#FF7DDA"/><stop offset="1" stop-color="#FFD66C"/></linearGradient>
+    <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FAFEFF"/><stop offset=".55" stop-color="#D9F9FF"/><stop offset="1" stop-color="#BFCBFF"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#70F4FF"/><stop offset="1" stop-color="#4B6CFF"/></linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFA3EA"/><stop offset="1" stop-color="#A24EFF"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF19D"/><stop offset="1" stop-color="#FF9E55"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="1200" height="1000" rx="64" fill="url(#sky)"/>
+  <circle cx="230" cy="180" r="120" fill="#77F6FF" opacity=".13" filter="url(#soft)"/>
+  <circle cx="965" cy="245" r="170" fill="#FF7DDA" opacity=".14" filter="url(#soft)"/>
+  <path d="M82 344C281 65 662 23 1025 218" fill="none" stroke="url(#rainbow)" stroke-width="24" stroke-linecap="round" opacity=".72" filter="url(#glow)"/>
+  <path d="M853 132c48-42 111-42 160-9 24 17 55 19 82 7-20 32-51 51-89 56-48 7-108-6-153-54Z" fill="#EAFBFF" opacity=".95"/>
+  <circle cx="925" cy="127" r="5" fill="#13265B"/>
+  <g opacity=".8" fill="#132E66">
+    <path d="M0 742h120v258H0zM112 675h84v325h-84zM184 716h105v284H184zM281 625h126v375H281zM398 694h82v306h-82zM458 591h120v409H458zM566 708h95v292h-95zM650 646h122v354H650zM761 687h88v313h-88zM842 568h131v432H842zM964 664h98v336h-98zM1051 620h149v380h-149z"/>
+  </g>
+  <g opacity=".55" fill="#9DEFFF">
+    <rect x="142" y="730" width="12" height="12" rx="2"/><rect x="142" y="768" width="12" height="12" rx="2"/><rect x="320" y="684" width="14" height="14" rx="2"/><rect x="354" y="684" width="14" height="14" rx="2"/><rect x="499" y="648" width="13" height="13" rx="2"/><rect x="704" y="704" width="13" height="13" rx="2"/><rect x="886" y="632" width="14" height="14" rx="2"/><rect x="1024" y="723" width="12" height="12" rx="2"/>
+  </g>
+  <!-- left trouble shooter -->
+  <g transform="translate(220 270) scale(.78)" opacity=".92">
+    <circle cx="210" cy="175" r="92" fill="#FFE4D8"/>
+    <path d="M115 176c1-102 73-142 145-100 39 23 47 76 27 128-20-31-45-49-82-55-30 9-57 25-90 27Z" fill="#FF75C8"/>
+    <path d="M128 253c36 30 125 33 164 0l48 275-250 0Z" fill="url(#suit)"/>
+    <path d="M148 275h124l-15 58-49 31-48-31Z" fill="url(#pink)"/>
+    <path d="M90 322 31 488l63 17 61-143M340 322l55 160-61 23-61-143" fill="none" stroke="url(#suit)" stroke-width="45" stroke-linecap="round"/>
+    <path d="M137 521 112 740M284 521l26 219" stroke="#EDF8FF" stroke-width="55" stroke-linecap="round"/>
+    <path d="M95 740h73M275 740h74" stroke="#A69CFF" stroke-width="34" stroke-linecap="round"/>
+    <path d="M383 330 454 81" stroke="#F9FEFF" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="456" cy="74" r="29" fill="url(#pink)" filter="url(#glow)"/>
+    <circle cx="177" cy="180" r="7" fill="#21305C"/><circle cx="242" cy="180" r="7" fill="#21305C"/>
+    <path d="M189 217c17 10 32 10 46 0" fill="none" stroke="#CA7187" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- right trouble shooter -->
+  <g transform="translate(700 260) scale(.8)" opacity=".92">
+    <circle cx="210" cy="175" r="92" fill="#FFE2CF"/>
+    <path d="M111 178c0-94 58-148 133-123 57 19 73 80 50 148-29-36-61-54-99-55-27 15-50 23-84 30Z" fill="#FFD66C"/>
+    <path d="M124 253c40 31 131 33 172 0l45 275H82Z" fill="url(#suit)"/>
+    <path d="M148 275h124l-15 58-49 31-48-31Z" fill="url(#gold)"/>
+    <path d="M90 322 43 485l58 18 58-142M339 322l53 154-58 25-62-140" fill="none" stroke="url(#suit)" stroke-width="45" stroke-linecap="round"/>
+    <path d="M137 521 112 740M284 521l26 219" stroke="#EDF8FF" stroke-width="55" stroke-linecap="round"/>
+    <path d="M95 740h73M275 740h74" stroke="#E8A765" stroke-width="34" stroke-linecap="round"/>
+    <path d="M41 336 12 87" stroke="#F9FEFF" stroke-width="13" stroke-linecap="round"/>
+    <path d="m12 55 17 29 34 4-25 23 7 33-30-16-31 16 7-34-24-22 34-4Z" fill="url(#gold)" filter="url(#glow)"/>
+    <circle cx="177" cy="180" r="7" fill="#21305C"/><circle cx="242" cy="180" r="7" fill="#21305C"/>
+    <path d="M189 217c17 10 32 10 46 0" fill="none" stroke="#CA7187" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- center trouble shooter -->
+  <g transform="translate(360 150)">
+    <ellipse cx="250" cy="852" rx="170" ry="34" fill="#70F4FF" opacity=".2" filter="url(#soft)"/>
+    <circle cx="250" cy="205" r="112" fill="#FFE3D5"/>
+    <path d="M128 213c0-124 80-179 172-143 68 26 89 100 57 184-21-42-51-72-101-85-45 15-83 29-128 44Z" fill="#5E83FF"/>
+    <path d="M147 188c28-78 100-115 187-76-17-48-70-79-123-64-56 15-92 72-64 140Z" fill="#76F0FF" opacity=".6"/>
+    <path d="M139 307c50 40 168 41 218 0l60 352H82Z" fill="url(#suit)"/>
+    <path d="M174 334h151l-22 72-54 38-58-38Z" fill="url(#blue)"/>
+    <path d="M85 399 22 620l72 21 77-195M416 397l74 205-70 30-83-188" fill="none" stroke="url(#suit)" stroke-width="56" stroke-linecap="round"/>
+    <path d="M154 648 119 930M347 648l37 282" stroke="#F1FBFF" stroke-width="72" stroke-linecap="round"/>
+    <path d="M98 930h104M330 930h104" stroke="#5C78E8" stroke-width="47" stroke-linecap="round"/>
+    <path d="M477 418 558 82" stroke="#F9FEFF" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="558" cy="72" r="38" fill="url(#blue)" filter="url(#glow)"/>
+    <path d="m558 38 9 23 25 2-19 16 6 24-21-13-22 13 7-24-19-16 25-2Z" fill="#fff" opacity=".9"/>
+    <circle cx="211" cy="210" r="9" fill="#203766"/><circle cx="289" cy="210" r="9" fill="#203766"/>
+    <circle cx="214" cy="207" r="3" fill="#BFF9FF"/><circle cx="292" cy="207" r="3" fill="#BFF9FF"/>
+    <path d="M223 258c19 13 38 13 56 0" fill="none" stroke="#CB7489" stroke-width="6" stroke-linecap="round"/>
+    <path d="M171 330c21-21 52-34 79-34 29 0 59 12 82 34" fill="none" stroke="#9FEFFF" stroke-width="7" opacity=".55"/>
+    <circle cx="250" cy="378" r="17" fill="#75F4FF" filter="url(#glow)"/>
+  </g>
+  <g font-family="system-ui, sans-serif" fill="#EAFBFF">
+    <text x="70" y="92" font-size="24" font-weight="800" letter-spacing="7">OSAKA TROUBLE SHOOTERS</text>
+    <text x="70" y="125" font-size="15" opacity=".7" letter-spacing="4">MAGICAL GIRLS / CITY SUPPORT UNIT</text>
+  </g>
+</svg>

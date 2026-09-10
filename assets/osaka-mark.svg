@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">OSAKA Metaverse mark</title>
+  <desc id="desc">Rainbow ring, city blocks and a flying whale.</desc>
+  <defs>
+    <linearGradient id="g" x1="18" y1="25" x2="143" y2="138" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70F5FF"/><stop offset=".42" stop-color="#7A8CFF"/><stop offset=".72" stop-color="#FF7EDB"/><stop offset="1" stop-color="#FFD36E"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="160" height="160" rx="42" fill="#08122B"/>
+  <path d="M26 103c6-40 31-67 61-67 24 0 44 16 54 41" fill="none" stroke="url(#g)" stroke-width="11" stroke-linecap="round" opacity=".95" filter="url(#glow)"/>
+  <path d="M35 117V88h17v29M58 117V75h22v42M86 117V91h17v26M109 117V82h15v35" fill="none" stroke="#EAFBFF" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M52 56c10-9 24-9 34-2 5 3 12 4 17 1-4 7-10 11-18 12-10 2-24-1-33-11Z" fill="#EAFBFF"/>
+  <circle cx="68" cy="53" r="2.4" fill="#08122B"/>
+  <path d="M36 124h89" stroke="#70F5FF" stroke-width="4" stroke-linecap="round"/>
+</svg>
