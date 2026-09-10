@@ -3,76 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#071433">
+  <meta name="theme-color" content="#07142f">
   <meta name="description" content="OSAKA Metaverse — 魔法少女とめぐる、もうひとつの大阪。虹とクジラが空を泳ぐフルダイブ型メタバース。">
   <title>OSAKA Metaverse | 魔法少女とめぐる、もうひとつの大阪。</title>
   <link rel="icon" href="assets/osaka-mark.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/osaka-hero.jpg" as="image">
-  <link rel="preload" href="assets/magical-girls.svg" as="image">
+  <link rel="preload" href="assets/anime/keyvisual.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/portal.css">
   <script src="js/main.js" defer></script>
 </head>
 <body>
   <div class="cursor-glow" aria-hidden="true"></div>
-  <div class="page-noise" aria-hidden="true"></div>
-
   <header class="site-header" id="top">
     <div class="shell nav-wrap">
       <a class="brand" href="#top" aria-label="OSAKA Metaverse トップへ"><img src="assets/osaka-mark.svg" alt=""><span><strong>OSAKA</strong><small>METAVERSE</small></span></a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="global-nav">MENU</button>
-      <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション">
-        <a href="#world">WORLD</a><a href="characters/index.html">MAGICAL GIRLS</a><a href="map.html">AREA MAP</a><a href="shop.html">SHOP / ¥EN</a><a href="support.html">SUPPORT</a>
-      </nav>
+      <nav class="global-nav" id="global-nav" aria-label="メインナビゲーション"><a href="#world">WORLD</a><a href="#magical">MAGICAL GIRLS</a><a href="#guide">GUIDE</a><a href="#login">HEADGEAR</a></nav>
+      <a class="nav-support" href="support.html">魔法少女に相談</a>
       <div class="osaka-time"><span>OSAKA TIME</span><strong id="osaka-clock">--:--:--</strong></div>
     </div>
   </header>
-
   <main>
-    <section class="hero">
-      <div class="hero-bg" aria-hidden="true"></div><div class="hero-grid" aria-hidden="true"></div><div class="particles" aria-hidden="true"></div>
-      <div class="shell hero-layout">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">FULL-DIVE CITY METAVERSE / HELLOVERSE</p>
-          <h1><span>魔法少女とめぐる、</span><br>もうひとつの大阪。</h1>
-          <p class="lead">虹が輝き、クジラが空を泳ぐ。街で働いて、遊んで、出会って、あなただけの毎日をつくる。OSAKAは、大阪市を舞台にしたフルダイブ型メタバースです。</p>
-          <div class="hero-actions"><a class="button primary" href="#world">OSAKAを見てみる</a><a class="button ghost" href="characters/index.html">魔法少女に会う</a></div>
-          <div class="hero-facts" aria-label="OSAKAの特徴"><span>5 SENSES</span><span>REAL CITY LIFE</span><span>MAGICAL SUPPORT</span></div>
-        </div>
-        <div class="hero-visual reveal">
-          <div class="hero-card"><img src="assets/magical-girls.svg" alt="OSAKAの街を守る魔法少女トラブルシューター"><div class="hero-card-caption"><span>OFFICIAL CITY SUPPORT</span><strong>TROUBLE SHOOTERS</strong></div></div>
-          <div class="floating-badge badge-one"><b>約40名</b><span>魔法少女が活動中</span></div><div class="floating-badge badge-two"><b>24 / 7</b><span>OSAKA CITY SUPPORT</span></div>
-        </div>
-      </div>
-      <a class="scroll-indicator" href="#world" aria-label="次のセクションへ"><span>SCROLL</span><i></i></a>
-    </section>
-
-    <section class="ticker" aria-label="OSAKAトピックス"><div class="ticker-track"><span>HELLO OSAKA</span><i>✦</i><span>RAINBOW SKY</span><i>✦</i><span>FLYING WHALES</span><i>✦</i><span>MAGICAL GIRLS</span><i>✦</i><span>WORK & PLAY</span><i>✦</i><span>¥EN ECONOMY</span><i>✦</i><span>HELLO OSAKA</span><i>✦</i><span>RAINBOW SKY</span><i>✦</i><span>FLYING WHALES</span><i>✦</i><span>MAGICAL GIRLS</span><i>✦</i><span>WORK & PLAY</span><i>✦</i><span>¥EN ECONOMY</span><i>✦</i></div></section>
-
-    <section class="section world" id="world"><div class="shell"><div class="section-heading reveal"><p class="section-kicker">01 / WELCOME TO OSAKA</p><h2>大阪市なのに、<br><span>大阪市ではない。</span></h2><p>梅田、難波、新世界、大阪城。見慣れた街並みの向こうには、現実にはない空中回廊、光る路地、幻想的な夜空が広がっています。</p></div><div class="world-grid"><article class="feature feature-large reveal"><span class="feature-label">THE SKY</span><h3>虹とクジラがいる日常。</h3><p>昼も夜も消えない巨大な虹。ビル群の上を悠々と泳ぐクジラ。OSAKAでは、それがいつもの景色です。</p><div class="orb orb-rainbow"></div></article><article class="feature reveal"><span class="feature-label">THE CITY</span><h3>大阪を自由に歩く。</h3><p>電車で移動しても、路地裏を散歩しても、屋上で夜景を眺めてもいい。効率よりも「暮らす楽しさ」を大切にした都市です。</p></article><article class="feature reveal"><span class="feature-label">YOUR AVATAR</span><h3>理想の自分で生きる。</h3><p>姿も年齢もスタイルも、OSAKAではあなた次第。ベースアバターから自分らしさを少しずつ育てていけます。</p></article></div></div></section>
-
-    <section class="section magical" id="magical"><div class="shell magical-layout"><div class="magical-visual reveal"><div class="poster-frame"><img src="assets/magical-girls.svg" alt="魔法少女トラブルシューターのキービジュアル"></div><span class="poster-chip chip-a">SYSTEM REPAIR</span><span class="poster-chip chip-b">PLAYER SUPPORT</span><span class="poster-chip chip-c">CITY PATROL</span></div><div class="magical-copy reveal"><p class="section-kicker">02 / TROUBLE SHOOTERS</p><h2>困ったときは、<br><span>魔法少女を呼んで。</span></h2><p class="intro-copy">OSAKAで街のトラブルに対応する運営スタッフ、それが「魔法少女」。専用アバターと管理用の“魔法”を使って、ユーザーの冒険と暮らしをサポートします。</p><div class="mission-list"><div><b>01</b><span><strong>バグ修復</strong><small>地形・オブジェクト・NPCなどの異常をその場で修復。</small></span></div><div><b>02</b><span><strong>ユーザーサポート</strong><small>迷子、接続トラブル、アバター不具合まで幅広く対応。</small></span></div><div><b>03</b><span><strong>街の安全管理</strong><small>イベント時の巡回や混雑対応など、OSAKAの毎日を支える。</small></span></div></div><p class="public-note">※「魔法」はOSAKA内の演出名称です。実際にはHELLOVERSEの管理システムを使用しています。</p><a class="button primary" href="characters/index.html">6人の公式メンバーを見る</a></div></div></section>
-
-    <section class="section" id="official-roster"><div class="shell"><div class="section-heading center reveal"><p class="section-kicker">OFFICIAL TROUBLE SHOOTERS</p><h2>OSAKAの顔になる、<br><span>6人の魔法少女。</span></h2><p>約40名のトラブルシューターから、公式広報を担当する6名をピックアップ。プロフィールはすべてOSAKA内の専用アバター情報です。</p></div><div class="portal-grid">
-      <a class="char-card reveal" href="characters/mio.html"><svg viewBox="0 0 400 520"><use href="assets/character-portraits.svg#mio"/></svg><div class="char-meta"><span class="char-role">BLUE / SYSTEM REPAIR</span><h2>蒼井ミオ</h2><p>街の修復スペシャリスト。</p></div></a>
-      <a class="char-card reveal" href="characters/ruka.html"><svg viewBox="0 0 400 520"><use href="assets/character-portraits.svg#ruka"/></svg><div class="char-meta"><span class="char-role">PINK / PLAYER SUPPORT</span><h2>桃瀬ルカ</h2><p>いちばん話しかけやすい案内役。</p></div></a>
-      <a class="char-card reveal" href="characters/akari.html"><svg viewBox="0 0 400 520"><use href="assets/character-portraits.svg#akari"/></svg><div class="char-meta"><span class="char-role">YELLOW / EVENT SAFETY</span><h2>日向アカリ</h2><p>イベント現場のムードメーカー。</p></div></a>
-      <a class="char-card reveal" href="characters/nagi.html"><svg viewBox="0 0 400 520"><use href="assets/character-portraits.svg#nagi"/></svg><div class="char-meta"><span class="char-role">GREEN / TRANSIT GUIDE</span><h2>翠川ナギ</h2><p>交通と導線管理のエキスパート。</p></div></a>
-      <a class="char-card reveal" href="characters/rei.html"><svg viewBox="0 0 400 520"><use href="assets/character-portraits.svg#rei"/></svg><div class="char-meta"><span class="char-role">PURPLE / NIGHT PATROL</span><h2>紫藤レイ</h2><p>夜のOSAKAを見守る巡回担当。</p></div></a>
-      <a class="char-card reveal" href="characters/yura.html"><svg viewBox="0 0 400 520"><use href="assets/character-portraits.svg#yura"/></svg><div class="char-meta"><span class="char-role">AQUA / SENSE SYNC</span><h2>白波ユラ</h2><p>五感同期と接続サポート担当。</p></div></a>
-    </div></div></section>
-
-    <section class="section play" id="play"><div class="shell"><div class="section-heading center reveal"><p class="section-kicker">03 / LIVE YOUR OSAKA</p><h2>遊ぶだけじゃない。<br><span>ここで暮らせる。</span></h2><p>OSAKAには、観光だけでは終わらない毎日があります。働く、食べる、買う、遊ぶ。好きな過ごし方を見つけてください。</p></div><div class="play-cards"><article class="play-card reveal"><div class="play-icon">01</div><h3>WORK</h3><p>カフェ、ショップ、イベント施設などで働いて¥ENを獲得。OSAKAでの仕事も、ひとつの遊び方です。</p><span>街で働く →</span></article><article class="play-card reveal"><div class="play-icon">02</div><h3>EXPLORE</h3><p>現実をベースにしながら大胆に拡張された大阪市を探索。空中商店街や幻想区画も待っています。</p><span>街をめぐる →</span></article><article class="play-card reveal"><div class="play-icon">03</div><h3>MEET</h3><p>友達をつくる。イベントへ行く。行きつけの店を見つける。OSAKAでしか生まれない思い出を。</p><span>出会いを楽しむ →</span></article><article class="play-card reveal"><div class="play-icon">04</div><h3>CUSTOMIZE</h3><p>服、髪、瞳、モーション。細部までこだわって、理想のアバターを自分だけの存在へ。</p><span>自分をつくる →</span></article></div></div></section>
-
-    <section class="section yen" id="yen"><div class="shell yen-layout"><div class="yen-copy reveal"><p class="section-kicker">04 / OSAKA CURRENCY</p><div class="yen-symbol">¥EN</div><h2>稼いで、使って、<br>街をもっと楽しむ。</h2><p>¥ENはOSAKA内の公式通貨。街の仕事で稼ぐほか、現実通貨からチャージして利用できます。</p><a class="button primary" href="shop.html">SHOP / ¥EN GUIDE</a></div><div class="yen-panel reveal"><div class="yen-row"><span>GET</span><div><strong>OSAKAで働く</strong><small>店舗や施設で仕事をして給与として獲得。</small></div></div><div class="yen-row"><span>CHARGE</span><div><strong>現実通貨からチャージ</strong><small>欲しいときに必要な分だけ¥ENへ交換。</small></div></div><div class="yen-row"><span>USE</span><div><strong>ショッピング・飲食・カスタム</strong><small>体験、ファッション、住居など使い道はさまざま。</small></div></div><div class="balance-demo"><span>MY WALLET</span><strong id="yen-counter">12,480</strong><b>¥EN</b></div></div></div></section>
-
-    <section class="section"><div class="shell"><div class="section-heading reveal"><p class="section-kicker">OSAKA OFFICIAL GUIDE</p><h2>もっと知る。<br><span>もっと遊ぶ。</span></h2><p>街へ入る前から、OSAKAの楽しみ方をチェックできます。</p></div><div class="portal-entry-grid"><a class="portal-entry reveal" href="map.html"><span>AREA MAP</span><h3>OSAKAエリアマップ</h3><p>梅田、難波、新世界、天王寺、湾岸。各エリアの特徴をインタラクティブに紹介。</p></a><a class="portal-entry reveal" href="shop.html"><span>SHOP / ¥EN</span><h3>ショップ＆¥ENガイド</h3><p>OSAKA限定アイテムと、働く・チャージする・使うの仕組みを体験。</p></a><a class="portal-entry reveal" href="support.html"><span>TROUBLE SHOOTER</span><h3>魔法少女に相談</h3><p>6人の担当から選んで相談できる、公式サポート風デモUI。</p></a></div></div></section>
-
-    <section class="section headgear" id="headgear"><div class="shell headgear-layout"><div class="headgear-device reveal"><div class="device-halo"></div><div class="device-shell"><span>HELLOVERSE</span><strong>OSAKA<br>HEADGEAR</strong><small>FULL-DIVE INTERFACE</small></div></div><div class="headgear-copy reveal"><p class="section-kicker">05 / HOW TO LOGIN</p><h2>五感で、<br><span>OSAKAへ。</span></h2><p>専用ヘッドギアは、視覚・聴覚・触覚・味覚・嗅覚をOSAKAのアバターへ同期。街の風も、料理の味も、その場にいるように感じられます。</p><ol class="steps"><li><b>1</b><span><strong>HEADGEAR</strong><small>HELLOVERSE製ヘッドギアを装着</small></span></li><li><b>2</b><span><strong>AVATAR</strong><small>OSAKA専用アバターを設定</small></span></li><li><b>3</b><span><strong>LOGIN</strong><small>五感同期を確認してOSAKAへ</small></span></li></ol><a class="button primary" href="support.html">はじめてのOSAKA相談</a></div></div></section>
-
-    <section class="section safety"><div class="shell"><div class="safety-box reveal"><div><p class="section-kicker">CITY SUPPORT PROMISE</p><h2>楽しい毎日を、<br>運営チームが支えます。</h2></div><p>OSAKAでは、システム監視とトラブルシューターによるサポート体制を整備。困ったことがあれば、街の魔法少女へお声がけください。</p></div></div></section>
+    <section class="hero"><div class="hero-bg" aria-hidden="true"></div><div class="particles" aria-hidden="true"></div><div class="shell hero-layout">
+      <div class="hero-copy reveal"><p class="eyebrow">HELLOVERSE / FULL-DIVE CITY METAVERSE</p><h1>魔法少女とめぐる、<br><span>もうひとつの大阪。</span></h1><p class="lead">虹が輝き、クジラが空を泳ぐ。街で働いて、遊んで、出会って、理想の姿で暮らす。OSAKAは、大阪市を舞台にしたフルダイブ型メタバースです。</p><div class="hero-actions"><a class="button primary" href="#world">OSAKAを知る</a><a class="button secondary" href="characters/index.html">魔法少女に会う</a></div><p class="hero-note">専用ヘッドギアで、視覚・聴覚・触覚・味覚・嗅覚をOSAKAへ。</p></div>
+      <div class="hero-visual reveal"><figure class="keyvisual"><img src="assets/anime/keyvisual.webp" alt="OSAKAの街を守る6人の魔法少女トラブルシューター" width="900" height="506"><figcaption><span>OFFICIAL TROUBLE SHOOTERS</span><strong>OSAKA CITY SUPPORT</strong></figcaption></figure><div class="visual-chip"><b>約40名</b><span>トラブルシューターが活動中</span></div></div>
+    </div></section>
+    <section class="facts" aria-label="OSAKAの基本情報"><div class="shell facts-grid"><div><strong>5 SENSES</strong><span>五感同期</span></div><div><strong>¥EN</strong><span>OSAKA公式通貨</span></div><div><strong>40± STAFF</strong><span>魔法少女</span></div><div><strong>OSAKA CITY</strong><span>大阪市を再構築</span></div></div></section>
+    <section class="section world" id="world"><div class="shell"><div class="section-heading reveal"><div><p class="section-kicker">01 / WORLD</p><h2>知っている大阪の先に、<br><span>まだ知らない日常がある。</span></h2></div><p>梅田、難波、新世界、大阪城。現実の大阪市を土台にしながら、OSAKAは独自の文化と暮らしを育てています。便利さだけではなく、「街で過ごすこと」そのものを楽しむ世界です。</p></div><div class="world-cards"><article class="world-card sky-card reveal"><span>SKY</span><h3>虹とクジラがいる空</h3><p>昼も夜も消えない幻想的な虹。巨大なクジラがビル群の上を泳ぐ景色は、OSAKAではいつもの日常です。</p></article><article class="world-card reveal"><span>LIFE</span><h3>働く、食べる、遊ぶ</h3><p>店舗で働いて¥ENを稼ぎ、食事やショッピングを楽しむ。OSAKAには観光だけでは終わらない生活があります。</p></article><article class="world-card reveal"><span>AVATAR</span><h3>理想の姿で暮らす</h3><p>OSAKA専用アバターで新しい毎日へ。服や髪、瞳、モーションなどを少しずつ自分らしくカスタマイズできます。</p></article></div><div class="inline-link reveal"><a href="map.html">OSAKA AREA MAPを見る <span>→</span></a></div></div></section>
+    <section class="section magical" id="magical"><div class="shell"><div class="section-heading reveal"><div><p class="section-kicker">02 / TROUBLE SHOOTERS</p><h2>街で困ったら、<br><span>魔法少女を呼んで。</span></h2></div><p>バグ修復、ユーザー案内、イベント安全管理、交通、夜間巡回、五感同期。OSAKA運営のトラブルシューターは、専用アバターと管理用の“魔法”で街を支えています。</p></div><div class="roster">
+      <a class="member mio reveal" href="characters/mio.html"><img src="assets/anime/mio.webp" alt="蒼井ミオ" loading="lazy" width="220" height="293"><div><span>SYSTEM REPAIR</span><h3>蒼井ミオ</h3><p>街の修復スペシャリスト</p></div></a><a class="member ruka reveal" href="characters/ruka.html"><img src="assets/anime/ruka.webp" alt="桃瀬ルカ" loading="lazy" width="220" height="293"><div><span>PLAYER SUPPORT</span><h3>桃瀬ルカ</h3><p>初心者とユーザー案内</p></div></a><a class="member akari reveal" href="characters/akari.html"><img src="assets/anime/akari.webp" alt="日向アカリ" loading="lazy" width="220" height="293"><div><span>EVENT SAFETY</span><h3>日向アカリ</h3><p>イベント安全管理</p></div></a><a class="member nagi reveal" href="characters/nagi.html"><img src="assets/anime/nagi.webp" alt="翠川ナギ" loading="lazy" width="220" height="293"><div><span>TRANSIT GUIDE</span><h3>翠川ナギ</h3><p>交通・導線管理</p></div></a><a class="member rei reveal" href="characters/rei.html"><img src="assets/anime/rei.webp" alt="紫藤レイ" loading="lazy" width="220" height="293"><div><span>NIGHT PATROL</span><h3>紫藤レイ</h3><p>夜間巡回・安全管理</p></div></a><a class="member yura reveal" href="characters/yura.html"><img src="assets/anime/yura.webp" alt="白波ユラ" loading="lazy" width="220" height="293"><div><span>SENSE SYNC</span><h3>白波ユラ</h3><p>五感同期・接続サポート</p></div></a>
+    </div><div class="section-action reveal"><a class="button secondary" href="characters/index.html">6人のプロフィールを見る</a></div></div></section>
+    <section class="section guide" id="guide"><div class="shell"><div class="section-heading compact reveal"><div><p class="section-kicker">03 / GUIDE</p><h2>OSAKAを、<br><span>もっと楽しむ。</span></h2></div><p>街を探す。¥ENを使う。困ったときに相談する。OSAKAでの毎日に必要なガイドをまとめました。</p></div><div class="guide-grid"><a class="guide-card reveal" href="map.html"><span class="guide-num">01</span><div><small>EXPLORE</small><h3>AREA MAP</h3><p>梅田から湾岸まで、OSAKAの主要エリアをめぐる。</p></div><b>→</b></a><a class="guide-card reveal" href="shop.html"><span class="guide-num">02</span><div><small>SHOPPING</small><h3>SHOP / ¥EN</h3><p>働いて稼ぐ、チャージする、好きなものに使う。</p></div><b>→</b></a><a class="guide-card reveal" href="support.html"><span class="guide-num">03</span><div><small>CITY SUPPORT</small><h3>ASK A MAGICAL GIRL</h3><p>迷子や接続トラブルを魔法少女に相談。</p></div><b>→</b></a></div></div></section>
+    <section class="section login" id="login"><div class="shell login-layout"><div class="login-copy reveal"><p class="section-kicker">04 / HELLOVERSE HEADGEAR</p><h2>目を閉じて、<br><span>OSAKAへ。</span></h2><p>HELLOVERSE専用ヘッドギアが五感をアバターへ同期。街の風、料理の味、足元の感覚まで、もうひとつの大阪を全身で体験できます。</p></div><ol class="login-steps reveal"><li><b>01</b><div><strong>HEADGEAR</strong><span>専用ヘッドギアを装着</span></div></li><li><b>02</b><div><strong>AVATAR</strong><span>OSAKAでの姿を設定</span></div></li><li><b>03</b><div><strong>SYNC & LOGIN</strong><span>五感同期を確認してログイン</span></div></li></ol></div></section>
+    <section class="closing"><div class="shell closing-box reveal"><p class="section-kicker">HELLO, ANOTHER OSAKA.</p><h2>今日のOSAKAで、<br>何をしよう？</h2><div><a class="button primary" href="map.html">街へ出かける</a><a class="button secondary" href="support.html">魔法少女に相談</a></div></div></section>
   </main>
-
-  <footer><div class="shell footer-grid"><div class="footer-brand"><img src="assets/osaka-mark.svg" alt=""><div><strong>OSAKA METAVERSE</strong><span>HELLO, ANOTHER OSAKA.</span></div></div><div class="footer-links"><a href="characters/index.html">MAGICAL GIRLS</a><a href="map.html">AREA MAP</a><a href="shop.html">SHOP / ¥EN</a><a href="support.html">SUPPORT</a></div><p>© HELLOVERSE / OSAKA METAVERSE<br><small>※ 本サイトはフィクション作品の世界観サイトです。</small></p></div></footer>
-</body>
-</html>
+  <footer><div class="shell footer-grid"><div class="footer-brand"><img src="assets/osaka-mark.svg" alt=""><div><strong>OSAKA METAVERSE</strong><span>HELLOVERSE</span></div></div><nav><a href="#world">WORLD</a><a href="characters/index.html">MAGICAL GIRLS</a><a href="map.html">MAP</a><a href="shop.html">SHOP</a><a href="support.html">SUPPORT</a></nav><p>© HELLOVERSE / OSAKA METAVERSE<br><small>※ 本サイトはフィクション作品の世界観サイトです。</small></p></div></footer>
+</body></html>
